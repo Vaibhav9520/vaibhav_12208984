@@ -11,7 +11,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 0;
-  border-bottom: 1px solid #f9f6f6;
+  border-bottom: 1px solid #eee;
   margin-bottom: 30px;
 }
 
@@ -19,13 +19,13 @@
   font-size: 24px;
   font-weight: bold;
   text-decoration: none;
-  color: #f5f3f3;
+  color: #333;
 }
 
 .nav-links a {
   margin-left: 20px;
   text-decoration: none;
-  color: #f4f3f3;
+  color: #555;
 }
 
 .nav-links a:hover {
@@ -34,6 +34,7 @@
 
 .page-container {
   padding: 20px;
+  align-items: center;
 }
 
 /* URL Shortener styles */
@@ -61,7 +62,7 @@
 .input-row input {
   width: 100%;
   padding: 8px;
-  border: 1px solid #f9f9f9;
+  border: 1px solid #ddd;
   border-radius: 4px;
 }
 
@@ -80,7 +81,7 @@
 
 button {
   padding: 8px 16px;
-  background: #000407;
+  background: #090a0a;
   color: white;
   border: none;
   border-radius: 4px;
@@ -88,7 +89,7 @@ button {
 }
 
 button:hover {
-  background: #02244b;
+  background: #1565c0;
 }
 
 .remove-btn {
@@ -100,11 +101,11 @@ button:hover {
 }
 
 .add-btn {
-  background: #daf3db;
+  background: #0c110c;
 }
 
 .add-btn:hover {
-  background: #a6eba9;
+  background: #2e7d32;
 }
 
 .results {

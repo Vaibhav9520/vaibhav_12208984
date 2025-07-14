@@ -11,7 +11,14 @@ function HomePage() {
   };
 
   return (
-    <div className="page-container">
+    <div style={{
+      padding: '20px',
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      textAlign: 'center'
+    }}>
       <h1>URL Shortener</h1>
       <p>Shorten up to 5 URLs at once</p>
       <UrlShortener onUrlAdded={handleUrlAdded} existingUrls={urls} />
