@@ -11,7 +11,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #f9f6f6;
   margin-bottom: 30px;
 }
 
@@ -19,13 +19,13 @@
   font-size: 24px;
   font-weight: bold;
   text-decoration: none;
-  color: #333;
+  color: #f5f3f3;
 }
 
 .nav-links a {
   margin-left: 20px;
   text-decoration: none;
-  color: #555;
+  color: #f4f3f3;
 }
 
 .nav-links a:hover {
@@ -61,7 +61,7 @@
 .input-row input {
   width: 100%;
   padding: 8px;
-  border: 1px solid #ddd;
+  border: 1px solid #f9f9f9;
   border-radius: 4px;
 }
 
@@ -80,7 +80,7 @@
 
 button {
   padding: 8px 16px;
-  background: #1976d2;
+  background: #000407;
   color: white;
   border: none;
   border-radius: 4px;
@@ -88,7 +88,7 @@ button {
 }
 
 button:hover {
-  background: #1565c0;
+  background: #02244b;
 }
 
 .remove-btn {
@@ -100,11 +100,11 @@ button:hover {
 }
 
 .add-btn {
-  background: #388e3c;
+  background: #daf3db;
 }
 
 .add-btn:hover {
-  background: #2e7d32;
+  background: #a6eba9;
 }
 
 .results {
